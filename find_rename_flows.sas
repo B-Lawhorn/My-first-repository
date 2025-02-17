@@ -20,7 +20,7 @@ ods listing close;
 %let htmlname=files;
 %let htmlpath=/tmp/;
 /* Investigate: why does /Public/Users/&sysuserid. not work? */
-%let directory=/Public/fred;
+%let directory=/Public/grace_path;
 
 /* Get the folder id for the directory in question */
 filename first temp;
