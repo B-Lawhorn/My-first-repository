@@ -17,7 +17,7 @@ ods listing close;
 proc datasets lib=work mt=data kill nolist; run;
 quit;
 ods listing close;
-%let htmlname=files;
+%let htmlname=filenames;
 %let htmlpath=/tmp/;
 /* Investigate: why does /Public/Users/&sysuserid. not work? */
 %let directory=/Public/fred;
